@@ -16,6 +16,7 @@ class Game extends Component {
     interval = () => {
         setInterval(() => {
             let a = this.randomNumber();
+            console.log(a);
             this.props.accValue(a)
         }, 1000)
     };
@@ -39,7 +40,7 @@ class Game extends Component {
                                        key={m.id}
                     />)
                 })}
-                <Counter countValue={this.props.countValue} onClick={this.f}/>
+                <Counter countValue={this.props.countValue}/>
                 <Button onClick={this.interval} name='START'/>
             </div>
         );

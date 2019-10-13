@@ -18,6 +18,25 @@
     overflow: hidden;
     display: inline-block;
 }
+.clicked {
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.missed {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
 
 .image {
     width: 100%;
